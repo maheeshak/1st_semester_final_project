@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="645.0" prefWidth="940.0" style="-fx-background-color: E9EEFC;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hrms.controller.SalaryWindowFormController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="698.0" layoutY="19.0" prefHeight="30.0" prefWidth="180.0" style="-fx-background-color: white; -fx-background-radius: 30px;" styleClass="radius" stylesheets="@../style/style.css" text="       SALARY" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="714.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/salary.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="115.0" layoutY="20.0" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: white; -fx-background-radius: 30px;">
+         <children>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="114.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/date.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblDate" focusTraversable="false" layoutX="18.0" layoutY="2.0" prefHeight="20.0" prefWidth="90.0">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="280.0" layoutY="20.0" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: white; -fx-background-radius: 30px;">
+         <children>
+            <Label fx:id="lblTime" focusTraversable="false" layoutX="7.0" layoutY="3.0" prefHeight="20.0" prefWidth="90.0">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="83.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/clock.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" focusTraversable="false" layoutX="421.0" layoutY="20.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#btnSettingOnAction" prefHeight="28.0" prefWidth="28.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="433.0" layoutY="30.0" onMouseClicked="#btnSettingOnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/setting.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnLogOut" buttonType="RAISED" focusTraversable="false" layoutX="443.0" layoutY="40.0" onAction="#btnLogOutOnAction" style="-fx-background-color: white;" text="LogOut" visible="false">
+         <font>
+            <Font name="Times New Roman Bold" size="11.0" />
+         </font>
+      </JFXButton>
+      <Pane layoutX="17.0" layoutY="82.0" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="36.0" layoutY="-1.0" prefHeight="30.0" prefWidth="69.0" text="Overview">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow color="#00000080" height="20.0" radius="9.5" width="20.0" />
+         </effect>
+      </Pane>
+      <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" ellipsisString="" layoutX="260.0" layoutY="82.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#btnAddOnAction" prefHeight="30.0" prefWidth="30.0">
+         <graphic>
+            <ImageView fitHeight="42.0" fitWidth="30.0" onDragDetected="#btnAddOnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/plus.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Pane layoutX="16.0" layoutY="116.0" prefHeight="517.0" prefWidth="912.0" style="-fx-background-color: white;">
+         <children>
+            <TableView fx:id="tblSalary" focusTraversable="false" layoutX="6.0" layoutY="49.0" prefHeight="456.0" prefWidth="900.0">
+              <columns>
+                <TableColumn fx:id="colEmpId" prefWidth="136.0" text="Emp Id" />
+                  <TableColumn fx:id="colMonth" prefWidth="122.0" text="Month" />
+                  <TableColumn fx:id="colBasic" prefWidth="170.0" text="Basic" />
+                  <TableColumn fx:id="colEarnings" prefWidth="159.0" text="Earnings" />
+                  <TableColumn fx:id="colDeductions" minWidth="0.0" prefWidth="158.0" text="Deductions" />
+                  <TableColumn fx:id="colNetSalary" minWidth="0.0" prefWidth="166.0" text="Net Salary" />
+              </columns>
+            </TableView>
+            <Pane layoutX="705.0" layoutY="10.0" prefHeight="28.0" prefWidth="200.0" style="-fx-background-radius: 30px; -fx-background-color: E9EEFC;">
+               <effect>
+                  <DropShadow color="#00000080" height="20.0" radius="9.5" width="20.0" />
+               </effect>
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/search.png" />
+                     </image>
+                  </ImageView>
+                  <JFXTextField fx:id="txtSearch" focusTraversable="false" layoutX="42.0" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#txtSearchOnAction" prefHeight="20.0" prefWidth="140.0" />
+               </children>
+            </Pane>
+         </children>
+         <effect>
+            <DropShadow color="#00000080" height="20.0" radius="9.5" width="20.0" />
+         </effect>
+      </Pane>
+      <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="161.0" layoutY="81.0" onAction="#btnReportOnAction" prefHeight="31.0" prefWidth="94.0" style="-fx-background-color: white;" text="Reports">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

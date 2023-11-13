@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.1.final using JasperReports Library version 6.20.1-7584acb244139816654f64e2fd57a00d3e31921e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="emp_salary" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4eedbb89-b4f6-4469-9ab6-f642a1688cf7">
+	<property name="template.engine" value="tabular_template"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Times New Roman" fontSize="50" isBold="false" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" forecolor="#CCCCCC" fontName="Times New Roman" fontSize="18" isBold="false" pdfFontName="Times-Roman"/>
+	<style name="Column header" forecolor="#666666" fontName="Times New Roman" fontSize="14" isBold="true" pdfFontName="Times-Roman"/>
+	<style name="Detail" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman"/>
+	<style name="Row" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style mode="Opaque" backcolor="#EEEFF0"/>
+		</conditionalStyle>
+	</style>
+	<style name="Table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+			<topPen lineWidth="1.0" lineColor="#000000"/>
+			<leftPen lineWidth="1.0" lineColor="#000000"/>
+			<bottomPen lineWidth="1.0" lineColor="#000000"/>
+			<rightPen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#CACED0">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style backcolor="#D8D8D8"/>
+		</conditionalStyle>
+	</style>
+	<subDataset name="tableDataset" uuid="80900292-b676-4e90-899d-7dc030cbbfc3">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter"/>
+		<queryString language="SQL">
+			<![CDATA[SELECT * FROM emp_salary]]>
+		</queryString>
+		<field name="emp_id" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="emp_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="emp_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="emp_salary"/>
+		</field>
+		<field name="basic" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="basic"/>
+			<property name="com.jaspersoft.studio.field.label" value="basic"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="emp_salary"/>
+		</field>
+		<field name="earnings" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="earnings"/>
+			<property name="com.jaspersoft.studio.field.label" value="earnings"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="emp_salary"/>
+		</field>
+		<field name="deductions" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="deductions"/>
+			<property name="com.jaspersoft.studio.field.label" value="deductions"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="emp_salary"/>
+		</field>
+		<field name="net_salary" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="net_salary"/>
+			<property name="com.jaspersoft.studio.field.label" value="net_salary"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="emp_salary"/>
+		</field>
+		<field name="month" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="month"/>
+			<property name="com.jaspersoft.studio.field.label" value="month"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="emp_salary"/>
+		</field>
+		<group name="emp_id">
+			<groupExpression><![CDATA[$F{emp_id}]]></groupExpression>
+		</group>
+	</subDataset>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<title>
+		<band height="196" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="80" width="556" height="1" uuid="806ce5df-1219-4876-ae0c-ca7405b1f246">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="179" y="90" width="220" height="25" uuid="139ebe8d-25b0-411e-986c-270015400874">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Employee Salary Summary]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="415" y="10" width="50" height="20" uuid="0f86baff-6386-4f3f-b3fe-2388707babe8"/>
+				<box rightPadding="4"/>
+				<textElement textAlignment="Right">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[Date:]]></text>
+			</staticText>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="465" y="10" width="84" height="20" uuid="bb10dbe1-0a4f-4722-9953-c163b63cf979"/>
+				<textElement>
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<image hAlign="Center">
+				<reportElement x="0" y="0" width="65" height="60" uuid="94883631-a913-43e2-b182-ab8d77d0181e"/>
+				<imageExpression><![CDATA["D:/IJ PROJECTS/novo-tech-solutions/human-resource-management-system/src/main/resources/assest/logo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="95" y="55" width="205" height="15" uuid="b8cc42fd-b569-497d-834d-7e854040ad18"/>
+				<text><![CDATA[ 0112 635 851]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="95" y="25" width="205" height="15" uuid="c226e44d-3bb5-4145-b0b3-903bf1d79fde"/>
+				<textElement>
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[RV4R+Q9H, Thelawala Rd, ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="95" y="40" width="205" height="15" uuid="b96f7183-44f8-43ad-ba60-43d8fbf50b6e"/>
+				<textElement>
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[Moratuwa.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="95" y="0" width="265" height="25" uuid="a1cd1507-0c92-42c6-8721-d08998d3c478">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="19" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Rubber Research Institute]]></text>
+			</staticText>
+		</band>
+	</title>
+	<summary>
+		<band height="293" splitType="Stretch">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<componentElement>
+				<reportElement x="0" y="-64" width="555" height="130" uuid="dfb36408-aca4-47e3-989d-4a85960df977">
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="tableDataset" uuid="327c562c-4966-42f5-b9d0-1856779c39c4">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:columnGroup width="540" uuid="2db5d039-6638-4f61-924f-56f55a894157">
+						<jr:groupHeader groupName="emp_id">
+							<jr:cell style="Table_CH" height="25">
+								<textField>
+									<reportElement x="0" y="0" width="540" height="25" uuid="a0206035-02d6-4666-b95d-e3bc301b217b"/>
+									<textElement>
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{emp_id}]]></textFieldExpression>
+								</textField>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:column width="90" uuid="97a8d152-aee7-4b89-9809-a68284fd1e91">
+							<jr:columnHeader style="Table_CH" height="30">
+								<staticText>
+									<reportElement key="" style="Column header" x="0" y="0" width="90" height="30" forecolor="#000000" uuid="b727e6b7-2f9a-465a-8bd4-3c2fe72101a3"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[emp_id]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement style="Detail" x="0" y="0" width="90" height="30" uuid="569f353a-d5b6-442c-b52a-461fd4811f34"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{emp_id}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="844259a4-28ae-43b0-856e-b08b2c37715d">
+							<jr:columnHeader style="Table_CH" height="30">
+								<staticText>
+									<reportElement key="" style="Column header" x="0" y="0" width="90" height="30" forecolor="#000000" uuid="53d591a0-397b-4899-b47a-3cfe0a738710"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[basic]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement style="Detail" x="0" y="0" width="90" height="30" uuid="850a3048-eaf0-447f-85d3-d963c27672b7"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{basic}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="0407a85d-b154-4481-8502-335c8fab55c0">
+							<jr:columnHeader style="Table_CH" height="30">
+								<staticText>
+									<reportElement key="" style="Column header" x="0" y="0" width="90" height="30" forecolor="#000000" uuid="a39dc888-cbe8-4dd1-b119-ec4b4cc8fe9f"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[earnings]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement style="Detail" x="0" y="0" width="90" height="30" uuid="630a7f9d-78a5-4ac1-b772-7fc59d71a7f6"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{earnings}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="7ff84965-3cde-48f8-b133-36272e57f059">
+							<jr:columnHeader style="Table_CH" height="30">
+								<staticText>
+									<reportElement key="" style="Column header" x="0" y="0" width="90" height="30" forecolor="#000000" uuid="b81c005e-2e3d-4103-8603-efad55868ebb"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[deductions]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement style="Detail" x="0" y="0" width="90" height="30" uuid="8196fab3-1c3e-402f-b1e5-dc40a22e8ae7"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{deductions}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="05cf63c0-b767-4c87-8d47-f3ed3bc2e4cd">
+							<jr:columnHeader style="Table_CH" height="30">
+								<staticText>
+									<reportElement key="" style="Column header" x="0" y="0" width="90" height="30" forecolor="#000000" uuid="2f00c6b3-9e54-48eb-9a04-6e265e1a7cbf"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[net_salary]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement style="Detail" x="0" y="0" width="90" height="30" uuid="8e544049-e702-42f0-b3a0-2eba744c7388"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{net_salary}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="a91a235d-277e-4d5b-8900-560d0999b0d2">
+							<jr:columnHeader style="Table_CH" height="30">
+								<staticText>
+									<reportElement key="" style="Column header" x="0" y="0" width="90" height="30" forecolor="#000000" uuid="ad93c36d-81f5-44b5-b627-903dda14b322"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[month]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement style="Detail" x="0" y="0" width="90" height="30" uuid="6b4a7580-39e3-48f5-8d50-3b819d30c49e"/>
+									<box leftPadding="2"/>
+									<textElement>
+										<font fontName="Times New Roman" size="12"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{month}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+		</band>
+	</summary>
+</jasperReport>

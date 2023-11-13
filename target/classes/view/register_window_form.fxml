@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hrms.controller.RegisterWindowFormController">
+   <AnchorPane prefHeight="500.0" prefWidth="294.0" style="-fx-background-color: E9EEFC;">
+      <children>
+         <ImageView fx:id="imgLogo" fitHeight="136.0" fitWidth="142.0" layoutX="72.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../assets/logo.png" />
+            </image>
+         </ImageView>
+         <Label layoutX="109.0" layoutY="270.0" prefHeight="89.0" prefWidth="68.0" text="RRI">
+            <font>
+               <Font name="Times New Roman Bold" size="35.0" />
+            </font>
+         </Label>
+         <Label layoutX="60.0" layoutY="225.0" prefHeight="89.0" prefWidth="166.0" text="Welcome to">
+            <font>
+               <Font name="Times New Roman Bold" size="30.0" />
+            </font>
+         </Label>
+      </children>
+   </AnchorPane>
+   <Label layoutX="325.0" layoutY="84.0" prefHeight="47.0" prefWidth="214.0" text="Registration Form">
+      <font>
+         <Font name="Times New Roman Bold" size="26.0" />
+      </font>
+   </Label>
+   <ImageView fitHeight="58.0" fitWidth="60.0" layoutX="329.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../assets/logo.png" />
+      </image>
+   </ImageView>
+   <Label layoutX="329.0" layoutY="108.0" opacity="0.51" prefHeight="47.0" prefWidth="235.0" text="Fill the form for registration">
+      <font>
+         <Font name="Times New Roman Bold" size="18.0" />
+      </font>
+   </Label>
+   <JFXButton focusTraversable="false" layoutX="449.0" layoutY="380.0" onAction="#btnRegisterOnAction" prefHeight="32.0" prefWidth="112.0" style="-fx-background-color: #8EA9F3;" text="Register">
+      <font>
+         <Font name="Times New Roman Bold" size="17.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </JFXButton>
+   <Line endX="253.0" layoutX="447.0" layoutY="436.0" startX="-100.0" stroke="#9eb7fd" strokeWidth="0.5" />
+   <Label layoutX="352.0" layoutY="440.0" prefHeight="21.0" prefWidth="194.0" text="Do you have an account ? ">
+      <font>
+         <Font name="Times New Roman" size="16.0" />
+      </font>
+   </Label>
+   <Label layoutX="521.0" layoutY="440.0" onMouseClicked="#txtSignInOnAction" prefHeight="21.0" prefWidth="68.0" text="Sign in" textFill="RED">
+      <font>
+         <Font name="Times New Roman" size="16.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Label>
+   <TextField fx:id="txtUserName" layoutX="325.0" layoutY="199.0" onAction="#txtUserNameOnAction" onKeyTyped="#userNameFieldOnAction" prefHeight="33.0" prefWidth="294.0" promptText="User Name" style="-fx-border-color: #9EB7FD;" />
+   <PasswordField fx:id="txtPassword" focusTraversable="false" layoutX="325.0" layoutY="259.0" onKeyTyped="#passwordFieldONAction" prefHeight="33.0" prefWidth="294.0" promptText="Password" style="-fx-border-color: #9EB7FD;" />
+   <ComboBox fx:id="comboBox" focusTraversable="false" layoutX="325.0" layoutY="316.0" onAction="#comboBoxOnAction" prefHeight="30.0" prefWidth="294.0" promptText="Account Type" style="-fx-border-color: #9EB7FD;">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </ComboBox>
+</AnchorPane>

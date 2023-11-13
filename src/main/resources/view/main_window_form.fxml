@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="1265.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hrms.controller.MainWindowFormController">
+   <children>
+      <ImageView fitHeight="118.0" fitWidth="122.0" layoutX="25.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/logo.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnDashboard" alignment="CENTER" buttonType="RAISED" cache="true" cacheHint="ROTATE" focusTraversable="false" graphicTextGap="50.0" layoutX="1.0" layoutY="175.0" onAction="#btnDashboardOnAction" prefHeight="46.0" prefWidth="334.0" style="-fx-background-color: E9EEFC;" stylesheets="@../style/style.css" text="DASHBOARD  ">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/dashboard.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnEmployee" alignment="CENTER" buttonType="RAISED" focusTraversable="false" graphicTextGap="50.0" layoutX="1.0" layoutY="238.0" onAction="#btnEmployeeOnAction" prefHeight="51.0" prefWidth="332.0" text="EMPLOYEES    ">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/staff.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnAttendance" alignment="CENTER" buttonType="RAISED" focusTraversable="false" graphicTextGap="50.0" layoutX="1.0" layoutY="370.0" onAction="#btnAttendanceOnAction" prefHeight="51.0" prefWidth="331.0" text="ATTENDANCE   ">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/attendance.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnLegalCases" alignment="CENTER" buttonType="RAISED" focusTraversable="false" graphicTextGap="50.0" layoutX="1.0" layoutY="438.0" onAction="#btnLegalCasesOnAction" prefHeight="51.0" prefWidth="338.0" text="LEGAL CASES  ">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/legal.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Label layoutX="177.0" layoutY="57.0" text="RRI">
+         <font>
+            <Font name="Times New Roman Bold" size="30.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="root" layoutX="333.0" layoutY="-1.0" prefHeight="645.0" prefWidth="940.0" style="-fx-background-color: E9EEFC;" />
+      <JFXButton fx:id="btnClient" alignment="CENTER" buttonType="RAISED" focusTraversable="false" graphicTextGap="50.0" layoutX="1.0" layoutY="303.0" onAction="#btnClientOnAction" prefHeight="51.0" prefWidth="331.0" text="CLIENT              ">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/client.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnSalary" alignment="CENTER" buttonType="RAISED" focusTraversable="false" graphicTextGap="50.0" layoutX="1.0" layoutY="506.0" onAction="#btnSalaryOnAction" prefHeight="51.0" prefWidth="330.0" text="SALARY             ">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/salary.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnProjects" alignment="CENTER" buttonType="RAISED" focusTraversable="false" graphicTextGap="50.0" layoutX="-5.0" layoutY="565.0" onAction="#btnProjectsOnAction" prefHeight="51.0" prefWidth="332.0" text="PROJECTS       ">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/project.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hrms.controller.LoginWindowFormController">
+
+   <AnchorPane prefHeight="500.0" prefWidth="294.0" style="-fx-background-color: E9EEFC;">
+      <ImageView fx:id="imgLogo" fitHeight="136.0" fitWidth="142.0" layoutX="72.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../assets/logo.png" />
+      </ImageView>
+      <Label layoutX="109.0" layoutY="270.0" prefHeight="89.0" prefWidth="68.0" text="RRI">
+         <font>
+            <Font name="Times New Roman Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="225.0" prefHeight="89.0" prefWidth="166.0" text="Welcome to">
+         <font>
+            <Font name="Times New Roman Bold" size="30.0" />
+         </font>
+      </Label>
+   </AnchorPane>
+   <Label layoutX="325.0" layoutY="84.0" prefHeight="47.0" prefWidth="176.0" text="Welcome back">
+      <font>
+         <Font name="Times New Roman Bold" size="26.0" />
+      </font>
+   </Label>
+   <ImageView fitHeight="58.0" fitWidth="60.0" layoutX="329.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../assets/logo.png" />
+      </image>
+   </ImageView>
+   <Label layoutX="329.0" layoutY="108.0" opacity="0.51" prefHeight="47.0" prefWidth="214.0" text="Sign in to continue">
+      <font>
+         <Font name="Times New Roman Bold" size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="326.0" layoutY="212.0" prefHeight="26.0" prefWidth="112.0" text="Pasword">
+      <font>
+         <Font name="Times New Roman Bold" size="16.0" />
+      </font>
+   </Label>
+   <TextField fx:id="txtEmail" cache="true" depthTest="DISABLE" focusTraversable="false" layoutX="325.0" layoutY="296.0" onAction="#txtEmailOnAction" onKeyTyped="#txtEmailOnKeyTyped" prefHeight="33.0" prefWidth="275.0" style="-fx-border-color: #9EB7FD;" />
+   <Label layoutX="325.0" layoutY="270.0" prefHeight="26.0" prefWidth="112.0" text="Email">
+      <font>
+         <Font name="Times New Roman Bold" size="16.0" />
+      </font>
+   </Label>
+   <PasswordField fx:id="txtPassword" focusTraversable="false" layoutX="326.0" layoutY="237.0" onAction="#txtPasswordOnAction" onKeyTyped="#txtPasswordOnKeyTyped" prefHeight="33.0" prefWidth="275.0" style="-fx-border-color: #9EB7FD;" />
+   <JFXButton fx:id="btnLogin" focusTraversable="false" layoutX="445.0" layoutY="401.0" onAction="#btnLoginOnAction" prefHeight="32.0" prefWidth="112.0" style="-fx-background-color: #8EA9F3;" text="Login">
+      <font>
+         <Font name="Times New Roman Bold" size="17.0" />
+      </font>
+   </JFXButton>
+   <Line endX="253.0" layoutX="432.0" layoutY="445.0" startX="-100.0" stroke="#9eb7fd" strokeWidth="0.5" />
+   <Label layoutX="509.0" layoutY="461.0" onMouseClicked="#txtSignUpOnAction" prefHeight="21.0" prefWidth="68.0" text="Sign up" textFill="RED">
+      <font>
+         <Font name="Times New Roman" size="16.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Label>
+   <JFXButton fx:id="btnOtp" buttonType="RAISED" disable="true" focusTraversable="false" layoutX="612.0" layoutY="354.0" onAction="#btnOtpOnAction" style="-fx-background-color: #8EA9F3;" text="OTP">
+      <font>
+         <Font name="Times New Roman Bold" size="14.0" />
+      </font>
+   </JFXButton>
+   <Label layoutX="325.0" layoutY="329.0" prefHeight="26.0" prefWidth="112.0" text="OTP">
+      <font>
+         <Font name="Times New Roman Bold" size="16.0" />
+      </font>
+   </Label>
+   <Label layoutX="340.0" layoutY="461.0" prefHeight="21.0" prefWidth="166.0" text="Don’t have an account ? ">
+      <font>
+         <Font name="Times New Roman" size="16.0" />
+      </font>
+   </Label>
+   <TextField fx:id="txtOtp" cache="true" depthTest="DISABLE" focusTraversable="false" layoutX="325.0" layoutY="351.0" onAction="#txtOtpOnAction" prefHeight="33.0" prefWidth="275.0" style="-fx-border-color: #9EB7FD;" />
+   <Label layoutX="325.0" layoutY="160.0" prefHeight="1.0" prefWidth="112.0" text="User Name">
+      <font>
+         <Font name="Times New Roman Bold" size="16.0" />
+      </font>
+   </Label>
+   <TextField fx:id="txtUserName" cache="true" depthTest="DISABLE" layoutX="325.0" layoutY="179.0" onAction="#txtUserNameOnAction" prefHeight="33.0" prefWidth="275.0" style="-fx-border-color: #9EB7FD;" />
+</AnchorPane>

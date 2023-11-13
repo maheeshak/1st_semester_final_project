@@ -1,0 +1,31 @@
+.table-view .column-header,
+.table-view .column-header-background {
+    -fx-background-color:   #E9EEFC;
+}
+.table-view .column-header {
+    -fx-border-color:  black;
+    -fx-border-width:  0.025;
+}
+.table-view .column-header .label{
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+    -fx-alignment: CENTER;
+    -fx-font-size: 14;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: whitesmoke;
+    -fx-text-background-color:  black;
+    -fx-font-weight: bold;
+    -fx-font-family: "Times New Roman";
+
+
+
+}
+.table-row-cell{
+    -fx-text-background-color:  black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 14;
+    -fx-border-width:  0.025;
+    -fx-border-color:  black;
+}

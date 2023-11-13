@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="645.0" prefWidth="940.0" style="-fx-background-color: E9EEFC;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hrms.controller.LegalCasesWindowController">
+   <children>
+      <Pane layoutX="105.0" layoutY="10.0" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: white; -fx-background-radius: 30px;">
+         <children>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="114.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/date.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblDate" focusTraversable="false" layoutX="18.0" layoutY="2.0" prefHeight="20.0" prefWidth="90.0">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="270.0" layoutY="10.0" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: white; -fx-background-radius: 30px;">
+         <children>
+            <Label fx:id="lblTime" focusTraversable="false" layoutX="7.0" layoutY="3.0" prefHeight="20.0" prefWidth="90.0">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="83.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/clock.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="688.0" layoutY="9.0" prefHeight="30.0" prefWidth="180.0" style="-fx-background-color: white; -fx-background-radius: 30px;" styleClass="radius" stylesheets="@../style/style.css" text="       LEGAL CASES" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="704.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/legal.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="12.0" layoutY="105.0" prefHeight="524.0" prefWidth="914.0" style="-fx-background-color: white;">
+         <children>
+            <TableView fx:id="tblDisAction" focusTraversable="false" layoutX="19.0" layoutY="44.0" prefHeight="476.0" prefWidth="421.0">
+               <columns>
+                  <TableColumn fx:id="colEmpID" prefWidth="103.0" text="Emp. ID" />
+                  <TableColumn fx:id="colDisId" prefWidth="125.0" text="Dis. Action" />
+                  <TableColumn fx:id="colDate" prefWidth="119.0" text="Date" />
+                  <TableColumn prefWidth="55.0" text="Action">
+                     <columns>
+                        <TableColumn fx:id="colPreview" prefWidth="30.0" />
+                        <TableColumn fx:id="colRemove" prefWidth="30.0" />
+                     </columns></TableColumn>
+               </columns>
+            </TableView>
+            <TableView fx:id="tblLegCase" focusTraversable="false" layoutX="477.0" layoutY="43.0" prefHeight="476.0" prefWidth="424.0">
+               <columns>
+                  <TableColumn fx:id="colLegEmpID" prefWidth="115.0" text="Emp. ID" />
+                  <TableColumn fx:id="colLegCases" prefWidth="118.0" text="Cases" />
+                  <TableColumn fx:id="colLegDate" prefWidth="110.0" text="Date" />
+                  <TableColumn prefWidth="50.0" text="Action">
+                     <columns>
+                        <TableColumn fx:id="colLegPreview" prefWidth="30.0" />
+                        <TableColumn fx:id="colLegRemove" prefWidth="30.0" />
+                     </columns>
+                  </TableColumn>
+               </columns>
+            </TableView>
+            <Line endX="-2.0" endY="493.0" layoutX="459.0" layoutY="34.0" startX="-2.0" startY="-21.0" />
+            <Label layoutX="117.0" layoutY="14.0" text="Disciplinary Actions">
+               <font>
+                  <Font name="Times New Roman Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="641.0" layoutY="14.0" text="Legal Cases">
+               <font>
+                  <Font name="Times New Roman Bold" size="19.0" />
+               </font>
+            </Label>
+            <Pane fx:id="paneAdd" layoutX="158.0" layoutY="-11.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="51.0" prefWidth="123.0" visible="false">
+               <children>
+                  <JFXButton buttonType="RAISED" focusTraversable="false" layoutY="-1.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#btnDisciplinaryOnAction" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 0.5px;" text="Disciplinary Action">
+                     <font>
+                        <Font name="Times New Roman Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" focusTraversable="false" layoutY="25.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#btnLegalCaseOnAction" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 0.5px;" text="Legal Cases">
+                     <font>
+                        <Font name="Times New Roman Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </Pane>
+         </children>
+         <effect>
+            <DropShadow color="#00000080" height="20.0" radius="9.5" width="20.0" />
+         </effect>
+      </Pane>
+      <Label alignment="CENTER" focusTraversable="false" layoutX="16.0" layoutY="65.0" prefHeight="37.0" prefWidth="123.0" style="-fx-background-color: white;" text="Overview">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#00000080" height="20.0" radius="9.5" width="20.0" />
+         </effect>
+      </Label>
+      <JFXButton ellipsisString="" focusTraversable="false" layoutX="148.0" layoutY="65.0" onAction="#btnAddOnAction" prefHeight="20.0" prefWidth="54.0">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="31.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/plus.gif" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" focusTraversable="false" layoutX="411.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#btnSettingOnAction" prefHeight="28.0" prefWidth="28.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="433.0" layoutY="30.0" onMouseClicked="#btnSettingOnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/setting.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnLogOut" buttonType="RAISED" focusTraversable="false" layoutX="433.0" layoutY="30.0" onAction="#btnLogOutOnAction" style="-fx-background-color: white;" text="LogOut" visible="false">
+         <font>
+            <Font name="Times New Roman Bold" size="11.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

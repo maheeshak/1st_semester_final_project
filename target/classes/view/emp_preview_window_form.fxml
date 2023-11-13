@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="499.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hrms.controller.EmpPreviewWindowFormController">
+   <children>
+      <ImageView fx:id="imgPerson" fitHeight="112.0" fitWidth="116.0" layoutX="494.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="26.0" layoutY="17.0" text="Profile">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEmpId" editable="false" focusTraversable="false" layoutX="24.0" layoutY="75.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="txtEmpName" focusTraversable="false" layoutX="244.0" layoutY="75.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="txtNic" focusTraversable="false" layoutX="24.0" layoutY="132.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="txtAddresss" focusTraversable="false" layoutX="244.0" layoutY="132.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="txtDob" focusTraversable="false" layoutX="230.0" layoutY="184.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField fx:id="txtAge" focusTraversable="false" layoutX="24.0" layoutY="184.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="txtMobile" focusTraversable="false" layoutX="24.0" layoutY="234.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="txtHome" focusTraversable="false" layoutX="230.0" layoutY="234.0" prefHeight="25.0" prefWidth="164.0" promptText="* optional" />
+      <TextField fx:id="txtEmail" focusTraversable="false" layoutX="424.0" layoutY="234.0" prefHeight="25.0" prefWidth="164.0" promptText="* optional" />
+      <TextField fx:id="txtExperience" focusTraversable="false" layoutX="424.0" layoutY="283.0" prefHeight="25.0" prefWidth="164.0" promptText="* optional" />
+      <TextArea fx:id="txtAdcademic" focusTraversable="false" layoutX="24.0" layoutY="350.0" prefHeight="37.0" prefWidth="568.0" promptText="* optional" />
+      <TextArea fx:id="txtProfessional" focusTraversable="false" layoutX="24.0" layoutY="420.0" prefHeight="37.0" prefWidth="568.0" promptText="* optional" />
+      <JFXButton focusTraversable="false" layoutX="506.0" layoutY="145.0" onAction="#btnChooseOnAction" prefHeight="24.0" prefWidth="84.0" style="-fx-border-color: black;" text="Choose">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="26.0" layoutY="55.0" text="Employee ID">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="244.0" layoutY="55.0" text="Name">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="118.0" text="NIC">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="244.0" layoutY="118.0" text="Adress">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="169.0" text="Age">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="169.0" text="DOB">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="169.0" text="Gender">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="217.0" text="Mobile">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="265.0" text="Designtion">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="217.0" text="Home">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="217.0" text="Email">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="265.0" text="Department">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="265.0" text="Experience">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="331.0" text="Academic Qualifications">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="401.0" text="Professional Qualification">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" focusTraversable="false" layoutX="491.0" layoutY="534.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" />
+      <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" focusTraversable="false" layoutX="535.0" layoutY="534.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" />
+      <ComboBox fx:id="cmbDepartment" focusTraversable="false" layoutX="230.0" layoutY="283.0" prefHeight="31.0" prefWidth="164.0" />
+      <ComboBox fx:id="cmbDesignation" focusTraversable="false" layoutX="24.0" layoutY="283.0" prefHeight="31.0" prefWidth="174.0" />
+      <JFXButton fx:id="btnUpdate" buttonType="RAISED" focusTraversable="false" layoutX="510.0" layoutY="479.0" onAction="#btnUpdateOnAction" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: yellow;" text="Update">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <ComboBox fx:id="cmbGender" focusTraversable="false" layoutX="424.0" layoutY="184.0" prefHeight="31.0" prefWidth="164.0" />
+   </children>
+</AnchorPane>

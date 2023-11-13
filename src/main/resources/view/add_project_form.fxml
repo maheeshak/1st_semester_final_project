@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="624.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hrms.controller.AddProjectFormController">
+   <children>
+      <Label layoutX="26.0" layoutY="17.0" text="Project Profile">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtProjectId" layoutX="24.0" layoutY="75.0" onAction="#txtProjectIdOnAction" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="txtProjectName" focusTraversable="false" layoutX="24.0" layoutY="194.0" onAction="#txtProjectNameOnAction" prefHeight="31.0" prefWidth="568.0" />
+      <Label layoutX="26.0" layoutY="55.0" text="Project ID">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="174.0" text="Project Name">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" focusTraversable="false" layoutX="491.0" layoutY="534.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" />
+      <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" focusTraversable="false" layoutX="535.0" layoutY="534.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" />
+      <TextField fx:id="projectCost" focusTraversable="false" layoutX="24.0" layoutY="128.0" onAction="#txtCostOnAction" prefHeight="31.0" prefWidth="188.0" />
+      <Label layoutX="26.0" layoutY="108.0" text="Cost">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtProjectManager" focusTraversable="false" layoutX="24.0" layoutY="253.0" onAction="#txtProjectMAnagerOnAction" prefHeight="31.0" prefWidth="568.0" />
+      <Label layoutX="26.0" layoutY="243.0">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEmployee1" editable="false" focusTraversable="false" layoutX="24.0" layoutY="348.0" prefHeight="31.0" prefWidth="94.0" />
+      <Label layoutX="26.0" layoutY="293.0" text="Employees">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="496.0" layoutY="391.0" onAction="#btnSaveOnaction" prefHeight="31.0" prefWidth="94.0" style="-fx-background-color: lightgreen;" text="Save">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <TextField fx:id="projectPhase" focusTraversable="false" layoutX="287.0" layoutY="127.0" onAction="#txtPhasesOnaction" prefHeight="31.0" prefWidth="188.0" />
+      <Label layoutX="289.0" layoutY="107.0" text="Phases">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="289.0" layoutY="65.0" text=" ">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="233.0" text="Project Manager">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="projectDuration" focusTraversable="false" layoutX="287.0" layoutY="70.0" onAction="#txtDurationOnAction" prefHeight="31.0" prefWidth="188.0" />
+      <Label layoutX="289.0" layoutY="50.0" text="Duration">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEmployee2" editable="false" focusTraversable="false" layoutX="126.0" layoutY="348.0" prefHeight="31.0" prefWidth="94.0" />
+      <TextField fx:id="txtEmployee4" editable="false" focusTraversable="false" layoutX="334.0" layoutY="348.0" prefHeight="31.0" prefWidth="94.0" />
+      <TextField fx:id="txtEmployee3" editable="false" focusTraversable="false" layoutX="230.0" layoutY="348.0" prefHeight="31.0" prefWidth="94.0" />
+      <TextField fx:id="txtEmployee5" editable="false" focusTraversable="false" layoutX="439.0" layoutY="348.0" prefHeight="31.0" prefWidth="94.0" />
+      <ComboBox fx:id="cmbEmployee" focusTraversable="false" layoutX="24.0" layoutY="315.0" onAction="#cmbEmployeeOnAction" prefWidth="150.0" />
+      <Label fx:id="lblCurrentId" layoutX="176.0" layoutY="55.0" textFill="RED">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

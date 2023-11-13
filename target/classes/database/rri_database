@@ -1,0 +1,255 @@
+CREATE DATABASE rri;
+USE rri;
+
+/////////////////////////////////////////////////////////////////
+
+create table user
+(
+    user_name varchar(10) not null,
+    password  varchar(20) not null,
+    otp       int         not null,
+    user_type varchar(10) not null,
+    constraint user_user_name_uindex
+        unique (user_name)
+);
+
+alter table user
+    add primary key (user_name);
+
+/////////////////////////////////////////////////////////////////
+
+create table department
+(
+    dep_id      varchar(10) not null,
+    dep_name    varchar(30) not null,
+    dep_manager varchar(50) not null,
+    no_emp      int         not null,
+    constraint department_dep_id_uindex
+        unique (dep_id)
+);
+
+alter table department
+    add primary key (dep_id);
+
+/////////////////////////////////////////////////////////////////
+
+create table employee
+(
+    dep_id                     varchar(10)             not null,
+    emp_id                     varchar(10)             not null,
+    emp_name                   varchar(50)             not null,
+    emp_nic                    varchar(15)             not null,
+    address                    varchar(100)            not null,
+    age                        int                     not null,
+    dob                        date                    not null,
+    gender                     enum ('male', 'female') not null,
+    mobile                     varchar(15)             not null,
+    home                       varchar(15)             null,
+    email                      varchar(30)             null,
+    designation                varchar(20)             not null,
+    experience_yrs             int                     null,
+    academic_qualification     text                    null,
+    acd_img                    int                     null,
+    professional_qualification text                    null,
+    prof_img                   int                     null,
+    emp_img                    int                     null,
+    sal_id                     varchar(10)             not null,
+    constraint employee_email_uindex
+        unique (email),
+    constraint employee_emp_id_uindex
+        unique (emp_id),
+    constraint dep_id
+        foreign key (dep_id) references department (dep_id),
+    constraint sal_id
+        foreign key (sal_id) references salary (sal_id)
+);
+
+alter table employee
+    add primary key (emp_id);
+
+/////////////////////////////////////////////////////////////////
+
+create table project
+(
+    proj_id      varchar(10)    not null,
+    proj_name    varchar(20)    not null,
+    duration     varchar(20)    not null,
+    proj_manager varchar(20)    not null,
+    cost         decimal(20, 2) not null,
+    constraint project_proj_id_uindex
+        unique (proj_id)
+);
+
+alter table project
+    add primary key (proj_id);
+
+/////////////////////////////////////////////////////////////////
+
+create table disciplinary_action
+(
+    disc_id     varchar(10)  not null,
+    disc_name   varchar(100) not null,
+    disc_status int          not null,
+    disc_img    int          null,
+    constraint disciplinary_action_desc_id_uindex
+        unique (disc_id)
+);
+
+alter table disciplinary_action
+    add primary key (disc_id);
+
+/////////////////////////////////////////////////////////////////
+
+create table legal_case
+(
+    leg_id     varchar(10)  not null,
+    leg_name   varchar(100) not null,
+    leg_status int          not null,
+    leg_img    int          null,
+    emp_id     varchar(10)  not null,
+    constraint legal_case_leg_id_uindex
+        unique (leg_id),
+    constraint legal_case_employee_emp_id_fk
+        foreign key (emp_id) references employee (emp_id)
+);
+
+alter table legal_case
+    add primary key (leg_id);
+
+/////////////////////////////////////////////////////////////////
+
+create table training
+(
+    tr_id       varchar(10) not null,
+    tr_name     varchar(50) not null,
+    tr_lecturer varchar(30) not null,
+    tr_duration varchar(20) not null,
+    constraint training_tr_id_uindex
+        unique (tr_id)
+);
+
+alter table training
+    add primary key (tr_id);
+
+/////////////////////////////////////////////////////////////////
+
+create table schedule
+(
+    sch_id    varchar(10) not null,
+    sch_date  date        not null,
+    sch_venue varchar(20) not null,
+    sch_time  varchar(10) not null,
+    constraint schedule_sch_id_uindex
+        unique (sch_id)
+);
+
+alter table schedule
+    add primary key (sch_id);
+
+/////////////////////////////////////////////////////////////////
+
+create table event
+(
+    event_id   varchar(10) not null,
+    event_name varchar(30) not null,
+    sponsor    varchar(20) not null,
+    constraint event_event_id_uindex
+        unique (event_id)
+);
+
+alter table event
+    add primary key (event_id);
+
+/////////////////////////////////////////////////////////////////
+
+create table salary
+(
+    sal_id          varchar(10)    not null,
+    sal_designation varchar(20)    not null,
+    sal_basic       decimal(20, 2) not null,
+    sal_ot          decimal(10, 2) not null,
+    sal_attend      decimal(10, 2) not null,
+    sal_welfare     decimal(10, 2) not null,
+    constraint salary_sal_id_uindex
+        unique (sal_id)
+);
+
+alter table salary
+    add primary key (sal_id);
+
+/////////////////////////////////////////////////////////////////
+associative table
+/////////////////////////////////////////////////////////////////
+
+create table proj_emp
+(
+    proj_id     varchar(10) not null,
+    emp_id      varchar(10) not null,
+    proj_client varchar(20) not null,
+    proj_phase  int         not null,
+    primary key (proj_id, emp_id),
+    constraint emp_id
+        foreign key (emp_id) references employee (emp_id),
+    constraint proj_id
+        foreign key (proj_id) references project (proj_id)
+);
+
+/////////////////////////////////////////////////////////////////
+
+create table emp_disciplinary
+(
+    emp_id          varchar(10) not null,
+    disc_id         varchar(10) not null,
+    disc_authorizer varchar(20) not null,
+    disc_date       date        not null,
+    constraint emp_disciplinary_pk
+        unique (emp_id, disc_id),
+    constraint emp_disciplinary_disciplinary_action_disc_id_fk
+        foreign key (disc_id) references disciplinary_action (disc_id),
+    constraint emp_disciplinary_employee_emp_id_fk
+        foreign key (emp_id) references employee (emp_id)
+);
+
+/////////////////////////////////////////////////////////////////
+create table emp_training
+(
+    emp_id  varchar(10)    not null,
+    tr_id   varchar(10)    not null,
+    tr_date date           not null,
+    tr_fee  decimal(10, 2) not null,
+    primary key (emp_id, tr_id),
+    constraint empl_id
+        foreign key (emp_id) references employee (emp_id),
+    constraint tr_id
+        foreign key (tr_id) references training (tr_id)
+);
+
+/////////////////////////////////////////////////////////////////
+
+create table dep_event
+(
+    dep_id      varchar(10)    not null,
+    event_id    varchar(10)    not null,
+    event_venue varchar(20)    not null,
+    event_date  date           not null,
+    event_cost  decimal(10, 2) not null,
+    primary key (dep_id, event_id),
+    constraint dep_event_department_dep_id_fk
+        foreign key (dep_id) references department (dep_id),
+    constraint dep_event_event_event_id_fk
+        foreign key (event_id) references event (event_id)
+);
+
+/////////////////////////////////////////////////////////////////
+
+create table tr_schedule
+(
+    sch_id  varchar(10) not null,
+    tr_id   varchar(10) not null,
+    tr_hall varchar(10) not null,
+    primary key (sch_id, tr_id),
+    constraint tr_schedule_schedule_sch_id_fk
+        foreign key (sch_id) references schedule (sch_id),
+    constraint tr_schedule_training_tr_id_fk
+        foreign key (tr_id) references training (tr_id)
+);

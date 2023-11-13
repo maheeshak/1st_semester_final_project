@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c06be80b-2776-46d1-a056-b70e83e94aed" name="Changes" comment="adding reports">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_librepdf_openpdf_1_3_30_jaspersoft_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sarxos_webcam_capture_0_3_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_21_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfoenix_jfoenix_9_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nativelibs4java_bridj_0_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_taoensso_encore_2_94_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_taoensso_nippy_2_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_taoensso_timbre_4_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_taoensso_truss_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_aviso_pretty_0_1_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_typhon0_AnimateFX_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jasperreports_jasperreports_6_20_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_clojure_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_tools_reader_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_21_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_iq80_snappy_snappy_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_24_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_19_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_19_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_19_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_19_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_19_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_19_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_19_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_19_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_win_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__zaden_carmine_2_18_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resorce-managemet-system.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/administration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/advisory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/afternoon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/attendance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/chemical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/client.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/dashboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/designation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/eye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/legal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/molecule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/morning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/night.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/plus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/process.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/project.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/remove_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/rubberTechnology.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/salary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/save.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/setting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/staff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assest/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/Launcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/AttendanceWindowFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/AttendanceWindowFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/ClientWindowFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/ClientWindowFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/EmpRegWindowFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/EmpRegWindowFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/EmployeesWindowFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/EmployeesWindowFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/LegalCasesWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/LegalCasesWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/LoadingWindowFormController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/LoadingWindowFormController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/LoadingWindowFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/LoadingWindowFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/ProjectOrderWindowFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/ProjectOrderWindowFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/ProjectWindowFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/ProjectWindowFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/SalaryWindowFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/controller/SalaryWindowFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/util/TimeDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/hrms/util/TimeDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/add_disciplinary_actions_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/add_disciplinary_actions_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/add_legal_case_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/add_legal_case_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/attendance_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/attendance_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/client_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/client_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/dashboard_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/dashboard_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/emp_reg_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/emp_reg_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/employees_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/employees_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/legal_cases_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/legal_cases_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/loading_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/loading_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/login_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/login_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/main_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/main_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/project_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/project_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/register_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/register_window_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/salary_window_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/salary_window_form.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2Ms7PYb0d6REX3qMmffZVTSsf08" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/IJ PROJECTS/novo-tech-solutions/human-resource-management-system",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IJ PROJECTS\novo-tech-solutions\human-resource-management-system\src\main\resources\reports" />
+      <recent name="D:\IJ PROJECTS\novo-tech-solutions\human-resource-management-system\src\main\resources\assest" />
+      <recent name="E:\Novo Tech Solutions\Projects\human-resource-management-system\src\main\resources\assest" />
+      <recent name="E:\Novo Tech Solutions\Projects\human-resource-management-system\src\main\resources\reports" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="lk.ijse.hrms.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.hrms.Launcher" />
+      <module name="human-resorce-managemet-system" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\setup\openjfx-19.0.2.1_windows-x64_bin-sdk\javafx-sdk-19.0.2.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.hrms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c06be80b-2776-46d1-a056-b70e83e94aed" name="Changes" comment="" />
+      <created>1678544431910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678544431910</updated>
+      <workItem from="1678544441325" duration="5345000" />
+      <workItem from="1678797562201" duration="3988000" />
+      <workItem from="1678805206339" duration="1439000" />
+      <workItem from="1678813556219" duration="971000" />
+      <workItem from="1678820309671" duration="1269000" />
+      <workItem from="1678860412295" duration="1214000" />
+      <workItem from="1678862366099" duration="2261000" />
+      <workItem from="1678865281958" duration="261000" />
+      <workItem from="1678876182933" duration="1751000" />
+      <workItem from="1678885665684" duration="589000" />
+      <workItem from="1678890174203" duration="2355000" />
+      <workItem from="1678941975854" duration="8502000" />
+      <workItem from="1678977167395" duration="595000" />
+      <workItem from="1679212266164" duration="30000" />
+      <workItem from="1679299675145" duration="10000" />
+      <workItem from="1679630920398" duration="11771000" />
+      <workItem from="1679644330545" duration="618000" />
+      <workItem from="1679885648752" duration="674000" />
+      <workItem from="1679888911353" duration="9000" />
+      <workItem from="1679889564006" duration="7000" />
+      <workItem from="1679895953530" duration="7000" />
+      <workItem from="1679896038436" duration="7000" />
+      <workItem from="1679932079847" duration="296000" />
+      <workItem from="1679933156925" duration="7006000" />
+      <workItem from="1679970552913" duration="6908000" />
+      <workItem from="1680093042440" duration="2659000" />
+      <workItem from="1680097782023" duration="3799000" />
+      <workItem from="1680111667147" duration="367000" />
+      <workItem from="1680144236687" duration="34000" />
+      <workItem from="1680144384035" duration="3772000" />
+      <workItem from="1680174069658" duration="600000" />
+      <workItem from="1680184683931" duration="2412000" />
+      <workItem from="1680494232676" duration="5042000" />
+      <workItem from="1680689642783" duration="8519000" />
+      <workItem from="1680751029942" duration="1228000" />
+      <workItem from="1680753409653" duration="592000" />
+      <workItem from="1680769849601" duration="4198000" />
+      <workItem from="1680801819369" duration="6396000" />
+      <workItem from="1681236178700" duration="871000" />
+      <workItem from="1681271123249" duration="46000" />
+      <workItem from="1681280481140" duration="27000" />
+      <workItem from="1681304016470" duration="100000" />
+      <workItem from="1681374570960" duration="2260000" />
+      <workItem from="1681387784657" duration="627000" />
+      <workItem from="1681390061375" duration="36000" />
+      <workItem from="1681480512154" duration="6485000" />
+      <workItem from="1681526660219" duration="32098000" />
+      <workItem from="1681614426655" duration="680000" />
+      <workItem from="1681615121555" duration="2483000" />
+      <workItem from="1681642247291" duration="4099000" />
+      <workItem from="1681655038733" duration="234000" />
+      <workItem from="1681656174478" duration="1110000" />
+      <workItem from="1681701281023" duration="7000" />
+      <workItem from="1681705438017" duration="5193000" />
+      <workItem from="1681729592910" duration="779000" />
+      <workItem from="1681796480019" duration="4401000" />
+      <workItem from="1681823314850" duration="2937000" />
+      <workItem from="1681971828162" duration="1629000" />
+      <workItem from="1681982547308" duration="12410000" />
+      <workItem from="1682010489286" duration="7177000" />
+      <workItem from="1682137711601" duration="2970000" />
+      <workItem from="1682144360023" duration="33000" />
+      <workItem from="1682149387314" duration="157000" />
+      <workItem from="1682149561585" duration="36000" />
+      <workItem from="1682149755929" duration="7239000" />
+      <workItem from="1682215937934" duration="3439000" />
+      <workItem from="1682222406291" duration="1039000" />
+      <workItem from="1682237645264" duration="1946000" />
+      <workItem from="1682249502914" duration="810000" />
+      <workItem from="1682316367139" duration="587000" />
+      <workItem from="1682352627509" duration="634000" />
+      <workItem from="1682403569268" duration="13149000" />
+      <workItem from="1682654632525" duration="12395000" />
+      <workItem from="1682678271878" duration="1528000" />
+      <workItem from="1682687297918" duration="573000" />
+      <workItem from="1682688050087" duration="816000" />
+      <workItem from="1682688938763" duration="964000" />
+      <workItem from="1682689985409" duration="6682000" />
+      <workItem from="1682737340799" duration="9344000" />
+      <workItem from="1682852570449" duration="4229000" />
+      <workItem from="1682934733154" duration="667000" />
+      <workItem from="1683532864694" duration="728000" />
+      <workItem from="1683609980329" duration="320000" />
+      <workItem from="1684469397148" duration="2858000" />
+      <workItem from="1684731704567" duration="688000" />
+      <workItem from="1684908153526" duration="658000" />
+      <workItem from="1685093637699" duration="7000" />
+      <workItem from="1685517467966" duration="6000" />
+      <workItem from="1685519348958" duration="1106000" />
+      <workItem from="1685715514495" duration="5762000" />
+      <workItem from="1685890827443" duration="6319000" />
+      <workItem from="1686064157253" duration="5628000" />
+      <workItem from="1686123426722" duration="11542000" />
+      <workItem from="1686399880553" duration="3522000" />
+      <workItem from="1686589361927" duration="613000" />
+      <workItem from="1686643623956" duration="645000" />
+      <workItem from="1686715286362" duration="1203000" />
+      <workItem from="1686931513418" duration="1806000" />
+      <workItem from="1699863956088" duration="937000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1678553434648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678553434648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1678818218390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678818218390</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create employee reg form">
+      <created>1678820909701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678820909701</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add  fields">
+      <created>1678821494779</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678821494779</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add cancel button">
+      <created>1678862652995</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678862652995</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change logout button">
+      <created>1678878276566</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678878276566</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add action to  setting button">
+      <created>1678892309789</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678892309789</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add action to  setting button">
+      <created>1678892328087</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678892328087</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add action to  setting button and logout button">
+      <created>1678943778807</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678943778807</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add action to  setting button and logout button">
+      <created>1678944924326</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678944924326</updated>
+    </task>
+    <task id="LOCAL-00011" summary="sql database added...">
+      <created>1679644722338</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679644722338</updated>
+    </task>
+    <task id="LOCAL-00012" summary="MVC And dto added">
+      <created>1679644923913</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679644923913</updated>
+    </task>
+    <task id="LOCAL-00013" summary="few changes">
+      <created>1679971797924</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679971797924</updated>
+    </task>
+    <task id="LOCAL-00014" summary="progressbar added">
+      <created>1680095781869</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680095781869</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Client added&#10;project added">
+      <created>1680100945487</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680100945487</updated>
+    </task>
+    <task id="LOCAL-00016" summary="client_window_form.fxml added">
+      <created>1680101187670</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680101187670</updated>
+    </task>
+    <task id="LOCAL-00017" summary="project table added.">
+      <created>1680106191363</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680106191363</updated>
+    </task>
+    <task id="LOCAL-00018" summary="project order window added.">
+      <created>1680107476464</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680107476464</updated>
+    </task>
+    <task id="LOCAL-00019" summary="set the project related forms to the project button">
+      <created>1680110829904</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680110829904</updated>
+    </task>
+    <task id="LOCAL-00020" summary="select colour for project">
+      <created>1680112018362</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680112018362</updated>
+    </task>
+    <task id="LOCAL-00021" summary="connect database login_window_form.fxml &amp; register_window_form.fxml">
+      <created>1680170799005</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1680170799005</updated>
+    </task>
+    <task id="LOCAL-00022" summary="few changes">
+      <created>1680171008957</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680171008957</updated>
+    </task>
+    <task id="LOCAL-00023" summary="some changes">
+      <created>1680494317220</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1680494317220</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add department form added.">
+      <created>1680494853949</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1680494853949</updated>
+    </task>
+    <task id="LOCAL-00025" summary="few Changes">
+      <created>1681538228404</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681538228404</updated>
+    </task>
+    <task id="LOCAL-00026" summary="changes on UI">
+      <created>1681799344978</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681799344978</updated>
+    </task>
+    <task id="LOCAL-00027" summary="few addition">
+      <created>1681825274055</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1681825274091</updated>
+    </task>
+    <task id="LOCAL-00028" summary="changes in payment slip">
+      <created>1681839031745</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681839031745</updated>
+    </task>
+    <task id="LOCAL-00029" summary="changes in payment slip">
+      <created>1681839250676</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1681839250676</updated>
+    </task>
+    <task id="LOCAL-00030" summary="few changes">
+      <created>1681840309573</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1681840309573</updated>
+    </task>
+    <task id="LOCAL-00031" summary="changes in reports">
+      <created>1681846638105</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681846638105</updated>
+    </task>
+    <task id="LOCAL-00032" summary="few changes">
+      <created>1681848759033</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848759033</updated>
+    </task>
+    <task id="LOCAL-00033" summary="log out changes">
+      <created>1681850050685</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681850050685</updated>
+    </task>
+    <task id="LOCAL-00034" summary="few changes">
+      <created>1682236462421</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1682236462421</updated>
+    </task>
+    <task id="LOCAL-00035" summary="few changes">
+      <created>1682239325440</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1682239325440</updated>
+    </task>
+    <task id="LOCAL-00036" summary="few changes">
+      <created>1682416442836</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1682416442836</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add validation EmpRegWindowFormController.java">
+      <created>1682422728932</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1682422728932</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add validation EmpRegWindowFormController.java  and add RegexPatterns.java class">
+      <created>1682424631462</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682424631462</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add validation AddClientWindowFormController.class">
+      <created>1682425322268</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1682425322268</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add date picker EmpRegWindowFormController.java">
+      <created>1682426222970</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1682426222970</updated>
+    </task>
+    <task id="LOCAL-00041" summary="few changes">
+      <created>1682688765218</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1682688765219</updated>
+    </task>
+    <task id="LOCAL-00042" summary="few changes">
+      <created>1682689523740</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1682689523740</updated>
+    </task>
+    <task id="LOCAL-00043" summary="few changes">
+      <created>1682690063752</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1682690063752</updated>
+    </task>
+    <task id="LOCAL-00044" summary="few changes">
+      <created>1682690181244</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1682690181244</updated>
+    </task>
+    <task id="LOCAL-00045" summary="few changes">
+      <created>1682702641819</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1682702641819</updated>
+    </task>
+    <task id="LOCAL-00046" summary="few changes">
+      <created>1682704589822</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1682704589822</updated>
+    </task>
+    <task id="LOCAL-00047" summary="few changes">
+      <created>1682705006314</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1682705006314</updated>
+    </task>
+    <task id="LOCAL-00048" summary="changes in QR generator">
+      <created>1682706916104</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1682706916104</updated>
+    </task>
+    <task id="LOCAL-00049" summary="adding reports">
+      <created>1686404372589</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1686404372589</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MVC And dto added" />
+    <MESSAGE value="progressbar added" />
+    <MESSAGE value="Client added&#10;project added" />
+    <MESSAGE value="client_window_form.fxml added" />
+    <MESSAGE value="project table added." />
+    <MESSAGE value="project order window added." />
+    <MESSAGE value="set the project related forms to the project button" />
+    <MESSAGE value="select colour for project" />
+    <MESSAGE value="connect database login_window_form.fxml &amp; register_window_form.fxml" />
+    <MESSAGE value="some changes" />
+    <MESSAGE value="add department form added." />
+    <MESSAGE value="few Changes" />
+    <MESSAGE value="changes on UI" />
+    <MESSAGE value="few addition" />
+    <MESSAGE value="changes in payment slip" />
+    <MESSAGE value="changes in reports" />
+    <MESSAGE value="log out changes" />
+    <MESSAGE value="attendance changes" />
+    <MESSAGE value="add validation EmpRegWindowFormController.java" />
+    <MESSAGE value="add validation EmpRegWindowFormController.java  and add RegexPatterns.java class" />
+    <MESSAGE value="add validation AddClientWindowFormController.class" />
+    <MESSAGE value="add date picker EmpRegWindowFormController.java" />
+    <MESSAGE value="few changes" />
+    <MESSAGE value="changes in QR generator" />
+    <MESSAGE value="adding reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding reports" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lk/ijse/hrms/db/DBConnection.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+</project>

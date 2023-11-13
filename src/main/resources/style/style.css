@@ -1,0 +1,7 @@
+.blue{
+    -fx-background-color: #8EA9F3;
+}
+
+.radius {
+    -fx-border-radius: 30px 30px 30px 30px;
+}

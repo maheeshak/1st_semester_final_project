@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="624.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hrms.controller.ClientPreviewWindowFormController">
+   <children>
+      <Label layoutX="26.0" layoutY="17.0" text="Client Profile">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtClientId" editable="false" focusTraversable="false" layoutX="24.0" layoutY="75.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="txtName" focusTraversable="false" layoutX="24.0" layoutY="136.0" prefHeight="31.0" prefWidth="568.0" />
+      <Label layoutX="26.0" layoutY="55.0" text="Client ID">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="116.0" text="Name / Institution">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" focusTraversable="false" layoutX="491.0" layoutY="534.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" />
+      <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" focusTraversable="false" layoutX="535.0" layoutY="534.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" />
+      <TextField fx:id="txtAddress" focusTraversable="false" layoutX="24.0" layoutY="198.0" prefHeight="31.0" prefWidth="568.0" />
+      <Label layoutX="26.0" layoutY="178.0" text="Address">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtContact" focusTraversable="false" layoutX="24.0" layoutY="263.0" prefHeight="31.0" prefWidth="568.0" />
+      <Label layoutX="26.0" layoutY="243.0" text="Contact">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEmail" focusTraversable="false" layoutX="24.0" layoutY="325.0" prefHeight="31.0" prefWidth="568.0" />
+      <Label layoutX="26.0" layoutY="305.0" text="Email">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="496.0" layoutY="376.0" onAction="#btnSaveOnAction" prefHeight="31.0" prefWidth="94.0" style="-fx-background-color: yellow;" text="Update">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

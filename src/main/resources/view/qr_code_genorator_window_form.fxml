@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hrms.controller.QrCodeGenoratorWindowFormController">
+   <children>
+      <TextField fx:id="textFeild" layoutX="54.0" layoutY="282.0" onKeyPressed="#onKeyReleased" prefHeight="31.0" prefWidth="200.0" />
+      <JFXButton fx:id="btnGen" buttonType="RAISED" layoutX="59.0" layoutY="330.0" onAction="#onAction" style="-fx-background-color: lightgreen;" text="Generate">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnClear" buttonType="RAISED" layoutX="184.0" layoutY="330.0" onAction="#btnClearOnAction" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: red;" text="Clear">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="pic" fitHeight="150.0" fitWidth="200.0" layoutX="59.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

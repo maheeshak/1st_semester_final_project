@@ -1,0 +1,41 @@
+/*add style sheet to transparent the tab pane*/
+.tab-header-area .tab-header-background {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.tab-pane .tab:selected {
+    -fx-background-color: #ccccff;
+}
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-padding: 0 10 0 10;
+}
+.tab .tab-label:hover {
+
+     -fx-alignment: CENTER;
+     -fx-font-weight: bold;
+
+
+ }
+.tab .tab-label:focused {
+
+      -fx-alignment: CENTER;
+      -fx-font-weight: bold;
+
+  }
+.tab-pane {
+    -fx-background-color: transparent;
+    -fx-tab-min-width: 100px;
+    -fx-tab-min-height: 30px;
+    -fx-tab-max-height: 30px;
+}
+.tab-pane .tab {
+    -fx-background-color: #e6e6ff;
+}
+.tab-pane:focused .tab-header-area .headers-region .tab:selected .focus-indicator {
+    -fx-border-width: 0;
+    -fx-border-insets: 0 0 0 0;
+    -fx-border-radius: 0;
+}
